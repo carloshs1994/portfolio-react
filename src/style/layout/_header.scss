@@ -1,0 +1,65 @@
+header {
+  width: 100vw;
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: $gray-background;
+  
+  a {
+    color: #fff;
+    font-family: $Roboto;
+    font-weight: 700;
+  }
+
+  nav {
+    display: flex;
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: -150%;
+      width: 100vw;
+      height: 100vh;
+      background-color: $gray-background;
+
+      li {
+        width: 85vw;
+        border-bottom: 1px solid #6F6C6B;
+        margin-top: 7.5vw;
+
+        &.close {
+          text-align: end;
+          border-bottom: none;
+        }
+
+        &.envelope {
+          display: none;
+        }
+
+        button {
+          margin-right: 1rem;
+          img {
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+        }
+
+        a {
+          font-family: $Inter;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 44px;
+          letter-spacing: 0;
+          padding: 0 1rem;
+        }
+      }
+    }
+  }
+}
