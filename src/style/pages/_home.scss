@@ -1,3 +1,7 @@
+.App {
+  overflow: hidden;
+}
+
 .presentation {
   position: relative;
   width: 100vw;
@@ -41,7 +45,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
   }
 
   ul {
@@ -56,39 +60,6 @@
     position: absolute;
     right: 0;
     bottom: 0;
-  }
-}
-
-.projects {
-  width: 100vw;
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
-  gap: 24px;
-  padding: 5rem 0;
-
-  div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-
-    h1 {
-      font-family: $Crete;
-      font-size: 40px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 52px;
-      letter-spacing: 0em;
-      text-align: center;
-      width: 88%;
-    }
-
-    hr {
-      width: 88%;
-    }
   }
 }
 
@@ -124,7 +95,7 @@
       font-style: normal;
       font-weight: 400;
       line-height: 24px;
-      letter-spacing: 0em;
+      letter-spacing: 0;
       text-align: left;
       color: #fff;
     }
@@ -162,13 +133,13 @@
       flex-direction: column;
       gap: 20px;
 
-      li{
+      li {
         font-family: $Inter;
         font-size: 32px;
         font-style: normal;
         font-weight: 700;
         line-height: 44px;
-        letter-spacing: 0em;
+        letter-spacing: 0;
         text-align: center;
         color: #fff;
 
@@ -181,14 +152,14 @@
           flex-direction: column;
           gap: 32px;
           margin-top: 20px;
-          
+
           li {
             font-family: $Inter;
             font-size: 22px;
             font-style: normal;
             font-weight: 300;
             line-height: 43px;
-            letter-spacing: 0em;
+            letter-spacing: 0;
             text-align: center;
           }
         }
@@ -218,9 +189,9 @@
       font-style: normal;
       font-weight: 700;
       line-height: 44px;
-      letter-spacing: 0em;
+      letter-spacing: 0;
       text-align: center;
-      color: #172B4D;
+      color: #172b4d;
     }
 
     form {
@@ -235,13 +206,13 @@
         width: calc(100% - 32px);
         height: 48px;
         border: none;
-        border-bottom: 1px solid #DBD8D7;
-        font-family: Inter;
+        border-bottom: 1px solid #dbd8d7;
+        font-family: $Inter;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
-        letter-spacing: 0em;
+        letter-spacing: 0;
         text-align: left;
         padding: 0 16px;
 
@@ -255,16 +226,20 @@
         height: 90px;
         max-height: 150px;
         padding: 12px;
-        background-color: #FBF8F7;
-        font-family: Inter;
+        background-color: #fbf8f7;
+        font-family: $Inter;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
-        letter-spacing: 0em;
+        letter-spacing: 0;
         text-align: left;
         border: none;
         resize: vertical;
+
+        &::placeholder {
+          color: #3c3a39;
+        }
       }
 
       button {
@@ -275,7 +250,7 @@
 
   hr {
     width: 100%;
-    border: 0.5px solid #DFE1E6;
+    border: 0.5px solid #dfe1e6;
   }
 
   ul {
@@ -285,5 +260,38 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
+  }
+}
+
+.projects {
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap: 24px;
+  padding: 5rem 0;
+
+  div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    h1 {
+      font-family: $Crete;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 52px;
+      letter-spacing: 0;
+      text-align: center;
+      width: 88%;
+    }
+
+    hr {
+      width: 88%;
+    }
   }
 }
