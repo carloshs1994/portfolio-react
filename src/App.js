@@ -3,6 +3,7 @@ import Header from './components/Header';
 import './style/main.scss';
 import Presentation from './components/Presentation';
 import Projects from './components/Projects';
+import About from './components/About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Presentation />
       <Projects />
+      <About />
     </div>
   );
 }
