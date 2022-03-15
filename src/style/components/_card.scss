@@ -65,6 +65,35 @@ div.main-card {
     padding: 12px;
     align-self: flex-start;
   }
+
+  @include tablet {
+    width: 88%;
+    height: 448px;
+    display: grid;
+    grid-template-columns: calc(100% - 327px) 327px;
+    grid-template-rows: 72px 164px 64px auto;
+    gap: 0;
+
+    img {
+      grid-row: span 4;
+      height: auto;
+      width: 98%;
+      align-self: flex-start;
+      margin-top: 1.5rem;
+    }
+
+    h2,
+    h3,
+    ul {
+      width: 327px;
+    }
+
+    button {
+      width: 124px;
+      height: 48px;
+      padding: 0;
+    }
+  }
 }
 
 div.card {

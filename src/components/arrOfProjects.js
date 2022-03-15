@@ -1,8 +1,9 @@
 import preview from '../img/preview.svg';
+import MarketOverviewImg from '../img/market-overview.png';
 
 const arrOfProjects = [
   {
-    image: preview,
+    image: MarketOverviewImg,
     title: 'Market Overview',
     languages: ['React', 'Redux', 'SASS', 'Axios'],
     description: 'Market Overview is a website designed to showcase the US stock market. You could find details about the stock of choice and improve your strategies. Built using React, Redux, SASS, and tested using React testing library.',

@@ -347,4 +347,26 @@
       width: 88%;
     }
   }
+
+  @include tablet {
+    width: 88%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+
+    div,
+    div.main-card {
+      grid-column: span 2;
+      width: 100%;
+    }
+
+    div {
+      hr {
+        width: 100%;
+      }
+    }
+
+    div.card {
+      grid-column: span 1;
+    }
+  }
 }
