@@ -369,6 +369,41 @@
     align-items: center;
     gap: 25px;
   }
+
+  @include tablet {
+    div {
+      flex-direction: row;
+      gap: 10%;
+
+      h1,
+      form {
+        width: 45%;
+      }
+
+      h1 {
+        font-size: 40px;
+        line-height: 52px;
+        text-align: left;
+      }
+
+      form {
+        align-items: flex-start;
+      }
+    }
+
+    ul {
+      height: 4.5rem;
+      gap: 3rem;
+      li {
+        a {
+          img {
+            width: 25px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
 }
 
 .projects {
