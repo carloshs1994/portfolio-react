@@ -151,7 +151,7 @@
 
   &-skills {
     width: 100vw;
-    height: 1245px;
+    height: 1255px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -194,5 +194,96 @@
         }
       }
     }
+  }
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    width: 88%;
+    padding: 124px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+
+    h1 {
+      width: 100%;
+      font-family: $Inter;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #172B4D;
+    }
+
+    form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+
+      input {
+        width: calc(100% - 32px);
+        height: 48px;
+        border: none;
+        border-bottom: 1px solid #DBD8D7;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 0 16px;
+
+        &::placeholder {
+          color: #979493;
+        }
+      }
+
+      textarea {
+        width: calc(100% - 24px);
+        height: 90px;
+        max-height: 150px;
+        padding: 12px;
+        background-color: #FBF8F7;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: none;
+        resize: vertical;
+      }
+
+      button {
+        padding: 12px;
+      }
+    }
+  }
+
+  hr {
+    width: 100%;
+    border: 0.5px solid #DFE1E6;
+  }
+
+  ul {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
   }
 }
