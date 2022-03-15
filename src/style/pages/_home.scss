@@ -1,0 +1,60 @@
+.presentation {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 3.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: $dark-background;
+
+  h1 {
+    color: $title-orange;
+    font-family: $Crete;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0.3700000047683716px;
+    width: 88%;
+  }
+
+  h2,
+  p {
+    color: #fff;
+    width: 88%;
+  }
+
+  h2 {
+    font-family: $Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0;
+  }
+
+  p {
+    font-family: $Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+  }
+
+  ul {
+    width: 88%;
+    height: 3rem;
+    display: flex;
+    gap: 1.7rem;
+    padding: 0 1rem;
+  }
+
+  img.decoration {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
