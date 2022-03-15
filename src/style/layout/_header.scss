@@ -32,6 +32,7 @@ header {
       width: 100vw;
       height: 100vh;
       background-color: $gray-background;
+      z-index: 1;
 
       li {
         width: 85vw;
@@ -41,6 +42,10 @@ header {
         &.close {
           text-align: end;
           border-bottom: none;
+          
+          button {
+            background-color: transparent;
+          }
         }
 
         &.envelope {
@@ -64,6 +69,34 @@ header {
           line-height: 44px;
           letter-spacing: 0;
           padding: 0 1rem;
+        }
+      }
+    }
+  }
+
+  @include tablet {
+    height: 4.5rem;
+
+    a {
+      font-family: $Inter;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    nav {
+      img {
+        height: 20px;
+        width: auto;
+      }
+
+      li {
+        &.close {
+          button {
+            img {
+              width: 30px;
+              height: auto;
+            }
+          }
         }
       }
     }
