@@ -219,6 +219,61 @@
       }
     }
   }
+
+  @include tablet {
+    &-info {
+      height: 590px;
+      align-items: flex-start;
+      padding-left: 6%;
+
+      h1,
+      h2 {
+        width: 566px;
+      }
+
+      h1 {
+        font-size: 72px;
+        line-height: 82px;
+        letter-spacing: 0;
+        text-align: left;
+      }
+
+      h2 {
+        font-size: 20px;
+        line-height: 32px;
+      }
+
+      button {
+        margin-left: 0;
+      }
+
+      img {
+        width: 250px;
+        height: auto;
+      }
+    }
+
+    &-skills {
+      height: 600px;
+
+      ul.about-skills-list {
+        width: 88%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 0;
+
+        li {
+          text-align: left;
+
+          ul {
+            li {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .contact {
