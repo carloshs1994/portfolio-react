@@ -21,6 +21,10 @@ header {
   nav {
     display: flex;
 
+    button {
+      background-color: transparent;
+    }
+
     ul {
       display: flex;
       flex-direction: column;
@@ -39,19 +43,6 @@ header {
         border-bottom: 1px solid #6f6c6b;
         margin-top: 7.5vw;
 
-        &.close {
-          text-align: end;
-          border-bottom: none;
-          
-          button {
-            background-color: transparent;
-          }
-        }
-
-        &.envelope {
-          display: none;
-        }
-
         button {
           margin-right: 1rem;
 
@@ -59,6 +50,19 @@ header {
             width: 1.5rem;
             height: 1.5rem;
           }
+        }
+
+        &.close {
+          text-align: end;
+          border-bottom: none;
+
+          button {
+            background-color: transparent;
+          }
+        }
+
+        &.envelope {
+          display: none;
         }
 
         a {
