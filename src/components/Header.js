@@ -22,9 +22,9 @@ const Header = () => {
               <img src={CloseButton} alt="close" />
             </button>
           </li>
-          <li><a href="#works-section-id">Portafolio</a></li>
-          <li><a href="#about-section-id">About</a></li>
-          <li><a href="#contact-section-id">Contact</a></li>
+          <li><a onClick={() => dispatch(closeMobileMenu())} href="#projects">Portafolio</a></li>
+          <li><a onClick={() => dispatch(closeMobileMenu())} href="#about">About</a></li>
+          <li><a onClick={() => dispatch(closeMobileMenu())} href="#contact">Contact</a></li>
           <li className="envelope">
             <a href="/">
               <img src={Envelope} alt="get my e-mail" />

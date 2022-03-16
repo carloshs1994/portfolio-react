@@ -5,7 +5,7 @@ import List2 from '../img/list2.svg';
 import List3 from '../img/list3.svg';
 
 const About = () => (
-  <section className="about">
+  <section className="about" id="about">
     <section className="about-info">
       <h1>About me</h1>
       <h2>

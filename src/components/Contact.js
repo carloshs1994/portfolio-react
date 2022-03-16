@@ -5,7 +5,7 @@ import Angel from '../img/angel-dark.svg';
 import Twitter from '../img/twitter-dark.svg';
 
 const Contact = () => (
-  <section className="contact">
+  <section className="contact" id="contact">
     <div>
       <h1>
         I&apos;m always interested in hearing about new projects, so if you&apos;d like
