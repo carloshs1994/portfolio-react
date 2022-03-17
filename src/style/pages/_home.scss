@@ -520,5 +520,45 @@
     div.card {
       grid-column: span 1;
     }
+
+    .modal {
+      &-container {
+        button.close-modal {
+          img {
+            width: 20px;
+            height: auto;
+          }
+        }
+  
+        img.preview {
+          width: 95%;
+          height: auto;
+          max-height: 55%;
+          order: -1;
+        }
+  
+        h2,
+        ul,
+        h3,
+        div.button-container {
+          width: 75%;
+        }
+  
+        h2 {
+          font-family: $Crete;
+          font-weight: 400;
+        }
+  
+        h3 {
+          line-height: 30px;
+        }
+  
+        div.button-container {
+          justify-content: flex-start;
+          gap: 1.5rem;
+        }
+      }
+    }
   }
+
 }
