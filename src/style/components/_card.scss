@@ -105,13 +105,14 @@ div.card {
   justify-content: flex-end;
   align-items: center;
   gap: 22px;
+  overflow: hidden;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
 
   img {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: -1;
   }
 

@@ -14,7 +14,16 @@ const About = () => (
         If you like what you see and have a project you need coded,
         don&apos;t hestiate to contact me.
       </h2>
-      <button type="button">Get My Resume</button>
+      <button
+        onClick={
+          () => {
+            window.open('https://docs.google.com/document/d/13wprQqbZluKo4rELVGHOU6yLt3HqIanXoPjl5wKD820/edit?usp=sharing', '_blank');
+          }
+        }
+        type="button"
+      >
+        Get My Resume
+      </button>
       <img src={Img1About} alt="decoration" />
     </section>
     <hr />

@@ -1,5 +1,6 @@
 import React from 'react';
 import Cards from './Cards';
+import Modal from './Modal';
 
 const Projects = () => (
   <section className="projects" id="projects">
@@ -8,6 +9,7 @@ const Projects = () => (
       <hr />
     </div>
     <Cards />
+    <Modal />
   </section>
 );
 

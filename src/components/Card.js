@@ -1,13 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
+import { openModal } from '../redux/home/home';
 
-const Card = ({ data, projectNumber }) => {
+const Card = ({ data }) => {
   const {
     title,
-    image,
+    mobileImage,
     languages,
     description,
   } = data;
+  const dispatch = useDispatch();
 
   const PrintLanguages = () => languages.map((item) => <li key={`${title}: stack-${item}`}><p>{item}</p></li>);
 
@@ -18,8 +21,8 @@ const Card = ({ data, projectNumber }) => {
       <ul>
         <PrintLanguages />
       </ul>
-      <img src={image} alt="preview" />
-      <button id={projectNumber} type="button">See Project</button>
+      <img src={mobileImage} alt="preview" />
+      <button onClick={() => dispatch(openModal(data))} type="button">See Project</button>
     </div>
   );
 };
@@ -30,7 +33,6 @@ Card.propTypes = {
       PropTypes.arrayOf(PropTypes.string),
     ]),
   ).isRequired,
-  projectNumber: PropTypes.number.isRequired,
 };
 
 export default Card;
