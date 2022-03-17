@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.eca3184d.css",
+    "main.js": "/portfolio-react/static/js/main.169a7456.js",
+    "static/media/easy-science.png": "/portfolio-react/static/media/easy-science.991b1035c838f2e7e386.png",
+    "static/media/spaceX.png": "/portfolio-react/static/media/spaceX.ef7506973945b99c458d.png",
+    "static/media/math-magicians.png": "/portfolio-react/static/media/math-magicians.9274e320f689a4caba1b.png",
+    "static/media/choose-your-pokemon.png": "/portfolio-react/static/media/choose-your-pokemon.055d5f992f84d8fb0bdf.png",
+    "static/media/easy-science-mobile.png": "/portfolio-react/static/media/easy-science-mobile.4fc2589047384d4a408a.png",
+    "static/media/choose-your-pokemon-mobile.png": "/portfolio-react/static/media/choose-your-pokemon-mobile.b5314a5688eba3c7ac14.png",
+    "static/media/market-overview.png": "/portfolio-react/static/media/market-overview.40f92a9e30f78693ca49.png",
+    "static/media/bookstore.png": "/portfolio-react/static/media/bookstore.2fb16bddd19dbb1da9d2.png",
+    "static/media/to-do-list.png": "/portfolio-react/static/media/to-do-list.2db47a36765cda1ece44.png",
+    "static/media/img-1-head.svg": "/portfolio-react/static/media/img-1-head.1209776c510bda1c00ca5b6af9567070.svg",
+    "static/media/img-1-about.svg": "/portfolio-react/static/media/img-1-about.f5e8c1cd95f60c85989e56c8400cff21.svg",
+    "static/media/angel-dark.svg": "/portfolio-react/static/media/angel-dark.a2c29606d6a8fa4fddf8143f35ac059f.svg",
+    "static/media/angel.svg": "/portfolio-react/static/media/angel.56ee9c023d6bc9b9cd350fecf639d252.svg",
+    "static/media/envelope.svg": "/portfolio-react/static/media/envelope.481f53405b3af3dbe1bbf4edafc58a00.svg",
+    "static/media/github-dark.svg": "/portfolio-react/static/media/github-dark.109b34dc43483be121521ebe807cbd9b.svg",
+    "static/media/github.svg": "/portfolio-react/static/media/github.14d3dcd3928eb676b9e8a1723e645e34.svg",
+    "static/media/source-button.svg": "/portfolio-react/static/media/source-button.d7f8abfce41673dbb2597b8876f554a4.svg",
+    "static/media/linkedin-dark.svg": "/portfolio-react/static/media/linkedin-dark.7879d4267ea995e39e3080d5059eaed5.svg",
+    "static/media/linkedin.svg": "/portfolio-react/static/media/linkedin.637e8dab4bd6c4968e573dc65ccbba29.svg",
+    "static/media/twitter-dark.svg": "/portfolio-react/static/media/twitter-dark.bc7908be33c263f51440ed546e774806.svg",
+    "static/media/twitter.svg": "/portfolio-react/static/media/twitter.231a4b54aa5866edb23a35beddaa2881.svg",
+    "static/media/close-button.svg": "/portfolio-react/static/media/close-button.6495951eba1280754d2b58cee9035b30.svg",
+    "static/media/live-button.svg": "/portfolio-react/static/media/live-button.a6f82caef22e8f45e60c06135700dab9.svg",
+    "index.html": "/portfolio-react/index.html",
+    "static/media/hamburger-button.svg": "/portfolio-react/static/media/hamburger-button.dfc99d026dbca407782a31744d966fe7.svg",
+    "static/media/list1.svg": "/portfolio-react/static/media/list1.973be1744a96af7dc58110d7d19a84a4.svg",
+    "static/media/list3.svg": "/portfolio-react/static/media/list3.5b10d160e67fe936378e5d5a9c71ab50.svg",
+    "static/media/list2.svg": "/portfolio-react/static/media/list2.4b9086dc43fe847f3aa30c228e234ea3.svg",
+    "main.eca3184d.css.map": "/portfolio-react/static/css/main.eca3184d.css.map",
+    "main.169a7456.js.map": "/portfolio-react/static/js/main.169a7456.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eca3184d.css",
+    "static/js/main.169a7456.js"
+  ]
+}
