@@ -6,7 +6,7 @@
 
 ## Built With
 
-- React, Redux, SASS
+- React, Redux, SASS.
 - Visual Studio Code.
 
 ## Live Demo
@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone this repository with git clone```git@github.com:carloshs1994/portfolio-react.git``` using your terminal or command line.
 - Change to the project directory by entering : <br>
-```cd portfolio-react``` in the terminal
+```cd portfolio-react``` in the terminal.
 
 ### Prerequisites
 
@@ -81,7 +81,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Usage
 
-You're free to use this project however you like it for educational purposes. Just keep in mind the acknowledgment described below
+You're free to use this project however you like it for educational purposes. Just keep in mind the acknowledgment described below.
 
 ### Run linters checks
 
@@ -89,7 +89,7 @@ Linter Checks are automatically run with Github actions when there's a pull requ
 
 ### Deployment
 
-The deployment can be found in the Github Pages of this repository or through the link provided above
+The deployment can be found in the Github Pages of this repository or through the link provided above.
 
 ## Author
 
@@ -102,10 +102,6 @@ The deployment can be found in the Github Pages of this repository or through th
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to Microverse
 
 ## 📝 License
 
