@@ -2,8 +2,6 @@
 
 > This is my portfolio. It's designed to showcase my projects as a Front-end Developer. It was built using React, Redux and SASS.
 
-![Preview]()
-
 ## Built With
 
 - React, Redux, SASS.
