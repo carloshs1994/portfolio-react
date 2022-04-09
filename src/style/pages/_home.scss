@@ -115,6 +115,13 @@
       }
     }
   }
+
+  @include desktop {
+    img.decoration {
+      width: auto;
+      height: 100%;
+    }
+  }
 }
 
 .about {
