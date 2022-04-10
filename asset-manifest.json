@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.eca3184d.css",
-    "main.js": "/portfolio-react/static/js/main.169a7456.js",
+    "main.css": "/portfolio-react/static/css/main.e966d238.css",
+    "main.js": "/portfolio-react/static/js/main.72221a3e.js",
     "static/media/easy-science.png": "/portfolio-react/static/media/easy-science.991b1035c838f2e7e386.png",
     "static/media/spaceX.png": "/portfolio-react/static/media/spaceX.ef7506973945b99c458d.png",
     "static/media/math-magicians.png": "/portfolio-react/static/media/math-magicians.9274e320f689a4caba1b.png",
@@ -11,6 +11,8 @@
     "static/media/market-overview.png": "/portfolio-react/static/media/market-overview.40f92a9e30f78693ca49.png",
     "static/media/bookstore.png": "/portfolio-react/static/media/bookstore.2fb16bddd19dbb1da9d2.png",
     "static/media/to-do-list.png": "/portfolio-react/static/media/to-do-list.2db47a36765cda1ece44.png",
+    "static/media/img-1-head-desktop.svg": "/portfolio-react/static/media/img-1-head-desktop.87a0686bbef8209f06488a573a838bde.svg",
+    "static/media/img-1-about-desktop.svg": "/portfolio-react/static/media/img-1-about-desktop.444b1fe7d53e2dd9a270ec29d923f644.svg",
     "static/media/img-1-head.svg": "/portfolio-react/static/media/img-1-head.1209776c510bda1c00ca5b6af9567070.svg",
     "static/media/img-1-about.svg": "/portfolio-react/static/media/img-1-about.f5e8c1cd95f60c85989e56c8400cff21.svg",
     "static/media/angel-dark.svg": "/portfolio-react/static/media/angel-dark.a2c29606d6a8fa4fddf8143f35ac059f.svg",
@@ -30,11 +32,11 @@
     "static/media/list1.svg": "/portfolio-react/static/media/list1.973be1744a96af7dc58110d7d19a84a4.svg",
     "static/media/list3.svg": "/portfolio-react/static/media/list3.5b10d160e67fe936378e5d5a9c71ab50.svg",
     "static/media/list2.svg": "/portfolio-react/static/media/list2.4b9086dc43fe847f3aa30c228e234ea3.svg",
-    "main.eca3184d.css.map": "/portfolio-react/static/css/main.eca3184d.css.map",
-    "main.169a7456.js.map": "/portfolio-react/static/js/main.169a7456.js.map"
+    "main.e966d238.css.map": "/portfolio-react/static/css/main.e966d238.css.map",
+    "main.72221a3e.js.map": "/portfolio-react/static/js/main.72221a3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.eca3184d.css",
-    "static/js/main.169a7456.js"
+    "static/css/main.e966d238.css",
+    "static/js/main.72221a3e.js"
   ]
 }
