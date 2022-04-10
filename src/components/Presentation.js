@@ -7,7 +7,9 @@ import Img1Head from '../img/img-1-head.svg';
 import Img2Head from '../img/img-1-head-desktop.svg';
 
 const Presentation = () => {
-  const [imgForRender, setImgForRender] = useState(Img1Head);
+  const [imgForRender, setImgForRender] = useState(
+    (window.innerWidth < 1080) ? Img1Head : Img2Head,
+  );
   useEffect(() => {
     const handleResize = () => (
       (window.innerWidth < 1080) ? setImgForRender(Img1Head) : setImgForRender(Img2Head)

@@ -282,6 +282,16 @@
       }
     }
   }
+
+  @include desktop {
+   &-info {
+     img {
+       width: auto;
+       height: 60%;
+       bottom: 30%;
+     }
+   } 
+  }
 }
 
 .contact {
