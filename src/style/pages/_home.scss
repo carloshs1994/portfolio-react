@@ -578,4 +578,37 @@
     }
   }
 
+  @include desktop {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    max-width: 1155px;
+
+    div,
+    div.main-card {
+      grid-column: span 3;
+      width: 100%;
+    }
+
+    div {
+      flex-direction: row;
+      gap: 24px;
+      justify-content: flex-start;
+
+      h1 {
+        text-align: left;
+        width: 315px;
+      }
+
+      hr {
+        width: calc(100% - 340px);
+        margin: 0;
+      }
+    }
+
+    div.main-card {
+      img {
+        width: 684px;
+      }
+    }
+  }
 }
