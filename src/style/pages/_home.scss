@@ -610,5 +610,42 @@
         width: 684px;
       }
     }
+
+    .modal {
+      &-container {
+        justify-content: flex-start;
+
+        h2,
+        ul {
+          width: 95%;
+          margin-top: 2rem;
+        }
+
+        img.preview {
+          order: 0;
+          width: 57.5%;
+          height: auto;
+          position: absolute;
+          bottom: 10%;
+          left: 2.5%;
+          aspect-ratio: 1;
+        }
+
+        h3,
+        div.button-container {
+          width: 35%;
+          position: absolute;
+          right: 2.5%;
+        }
+
+        h3 {
+          bottom: 50%;
+        }
+
+        div.button-container {
+          bottom: 10%;
+        }
+      }
+    }
   }
 }
