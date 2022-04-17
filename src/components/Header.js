@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Hamburgerbutton from '../img/hamburger-button.svg';
 import CloseButton from '../img/close-button.svg';
@@ -8,7 +8,16 @@ import { openMobileMenu, closeMobileMenu } from '../redux/home/home';
 const Header = () => {
   const dispatch = useDispatch();
   const statusMobileMenu = useSelector((state) => state.homeReducer.displayMobileMenu);
-  const styleMobileMenu = (statusMobileMenu) ? '0' : '-150%';
+  const styleMobileMenu = (statusMobileMenu || window.innerWidth >= 1080) ? '0' : '-150%';
+
+  useEffect(() => {
+    const handleResize = () => (
+      (window.innerWidth < 1080) ? dispatch(closeMobileMenu()) : dispatch(openMobileMenu())
+    );
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, [window.innerWidth]);
+
   return (
     <header>
       <a href="/">Carlos Herver</a>
