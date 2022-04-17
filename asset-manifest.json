@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.e966d238.css",
-    "main.js": "/portfolio-react/static/js/main.72221a3e.js",
+    "main.css": "/portfolio-react/static/css/main.81159e13.css",
+    "main.js": "/portfolio-react/static/js/main.77f6ca84.js",
     "static/media/easy-science.png": "/portfolio-react/static/media/easy-science.991b1035c838f2e7e386.png",
     "static/media/spaceX.png": "/portfolio-react/static/media/spaceX.ef7506973945b99c458d.png",
     "static/media/math-magicians.png": "/portfolio-react/static/media/math-magicians.9274e320f689a4caba1b.png",
@@ -32,11 +32,11 @@
     "static/media/list1.svg": "/portfolio-react/static/media/list1.973be1744a96af7dc58110d7d19a84a4.svg",
     "static/media/list3.svg": "/portfolio-react/static/media/list3.5b10d160e67fe936378e5d5a9c71ab50.svg",
     "static/media/list2.svg": "/portfolio-react/static/media/list2.4b9086dc43fe847f3aa30c228e234ea3.svg",
-    "main.e966d238.css.map": "/portfolio-react/static/css/main.e966d238.css.map",
-    "main.72221a3e.js.map": "/portfolio-react/static/js/main.72221a3e.js.map"
+    "main.81159e13.css.map": "/portfolio-react/static/css/main.81159e13.css.map",
+    "main.77f6ca84.js.map": "/portfolio-react/static/js/main.77f6ca84.js.map"
   },
   "entrypoints": [
-    "static/css/main.e966d238.css",
-    "static/js/main.72221a3e.js"
+    "static/css/main.81159e13.css",
+    "static/js/main.77f6ca84.js"
   ]
 }
