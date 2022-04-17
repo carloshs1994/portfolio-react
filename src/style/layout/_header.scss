@@ -23,6 +23,16 @@ header {
 
     button {
       background-color: transparent;
+
+      &:hover {
+        background-color: transparent;
+        border: none;
+      }
+
+      &:active {
+        background-color: transparent;
+        border: none;
+      }
     }
 
     ul {
@@ -128,7 +138,14 @@ header {
           }
 
           &.envelope {
-            display: block;
+            display: flex;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+
+            button {
+              display: block;
+            }
           }
 
           a {

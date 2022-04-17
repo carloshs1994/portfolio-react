@@ -35,9 +35,9 @@ const Header = () => {
           <li><a onClick={() => dispatch(closeMobileMenu())} href="#about">About</a></li>
           <li><a onClick={() => dispatch(closeMobileMenu())} href="#contact">Contact</a></li>
           <li className="envelope">
-            <a href="/">
+            <button type="button" onClick={() => window.open('mailto:carhersolstack@gmail.com?subject=Hi')}>
               <img src={Envelope} alt="get my e-mail" />
-            </a>
+            </button>
           </li>
         </ul>
       </nav>

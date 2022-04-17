@@ -8,4 +8,20 @@ button {
   letter-spacing: 0.03em;
   text-align: center;
   color: #fff;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: $title-orange-hover;
+    color: #F55800;
+    border: 1px solid #F55800;
+  }
+
+  &:active {
+    background-color: $title-orange-active;
+  }
+
+  &:disabled {
+    background-color: $title-orange-disabled;
+    color: #5b5957;
+  }
 }

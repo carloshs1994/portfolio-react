@@ -46,31 +46,31 @@ const About = () => {
             Language
             <ul>
               <li>Javascript</li>
-              <li>Ruby</li>
               <li>Html</li>
               <li>CSS</li>
+              <li>Ruby</li>
             </ul>
           </li>
           <li>
             <img src={List2} alt="decoration" />
             Frameworks
             <ul>
-              <li>Bootstrap</li>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Redux</li>
+              <li>Material UI</li>
               <li>Ruby on Rails</li>
-              <li>RSPec</li>
-              <li>CapyBara</li>
-              <li>Selenium</li>
             </ul>
           </li>
           <li>
             <img src={List3} alt="decoration" />
             Skills
             <ul>
-              <li>Codekit</li>
               <li>Github</li>
-              <li>Codepen</li>
-              <li>Gitlab</li>
               <li>Terminal</li>
+              <li>Codekit</li>
+              <li>Gitlab</li>
+              <li>Codepen</li>
             </ul>
           </li>
         </ul>
