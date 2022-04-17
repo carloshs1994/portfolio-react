@@ -105,4 +105,40 @@ header {
       }
     }
   }
+
+  @include desktop {
+    nav {
+      button {
+        display: none;
+      }
+
+      ul {
+        position: static;
+        width: 30vw;
+        height: auto;
+        flex-direction: row;
+        text-align: center;
+
+        li {
+          margin: 0;
+          border: none;
+
+          &.close {
+            display: none;
+          }
+
+          &.envelope {
+            display: block;
+          }
+
+          a {
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 20px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
 }
