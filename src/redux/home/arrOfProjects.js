@@ -1,14 +1,43 @@
 import MarketOverviewImg from '../../img/market-overview.png';
 import ChooseYourPokemon from '../../img/choose-your-pokemon.png';
 import ChooseYourPokemonMobile from '../../img/choose-your-pokemon-mobile.png';
-import SpaceX from '../../img/spaceX.png';
 import EasyScience from '../../img/easy-science.png';
 import EasyScienceMobile from '../../img/easy-science-mobile.png';
-import MathMagicians from '../../img/math-magicians.png';
-import Bookstore from '../../img/bookstore.png';
+import Catstagram from '../../img/catstagram.png';
+import CatstagramMobile from '../../img/catstagram-mobile.png';
 import ToDoList from '../../img/to-do-list.png';
+import Ecommerce from '../../img/99-ecommerce.png';
+import EcommerceMobile from '../../img/99-ecommerce-mobile.png';
+import RedditClone from '../../img/reddit-clone.png';
 
 const arrOfProjects = [
+  {
+    image: Ecommerce,
+    mobileImage: EcommerceMobile,
+    title: '99-ecommerce',
+    languages: ['Next', 'TypeScript', 'Tailwind', 'MongoDB', 'PayPal'],
+    description: 'This is a Full-Stack E-commerce website. It was built using Next.js, TypeScript, MongoDB and Mongoose to save and retrieve data like products, orders and users, styled with Tailwind, and PayPal API to make online payments (Requires a mock Credit Card to test this feature).',
+    linkLiveVersion: 'https://99-ecommerce.vercel.app/',
+    linkToSource: 'https://github.com/carloshs1/99-ecommerce',
+  },
+  {
+    image: RedditClone,
+    mobileImage: RedditClone,
+    title: 'Reddit Clone',
+    languages: ['Next.js', 'TypeScript', 'Tailwind', 'GraphQL', 'Supabase', 'Reddit API'],
+    description: 'This Reddit Clone is a Full-Stack Web App (Desktop only). It was built using Next.js, TypeScript, GraphQL connected to a PostgreSQL Supabase DB using Stepzen, styled with Tailwind and uses Reddit API to sign in users.',
+    linkLiveVersion: 'https://reddit-chs.vercel.app/',
+    linkToSource: 'https://github.com/carloshs1/reddit-chs',
+  },
+  {
+    image: Catstagram,
+    mobileImage: CatstagramMobile,
+    title: 'Catstagram',
+    languages: ['Next.js', 'TypeScript', 'Tailwind', 'Recoil', 'REST', 'Nextauth'],
+    description: 'Built for catlovers, by a catlover! This is a instagram semi-clone. Built using Next.js, TypeScript, Recoils for Global State, Nextauth, styled with Tailwind.',
+    linkLiveVersion: 'https://catstagram-two.vercel.app/',
+    linkToSource: 'https://github.com/carloshs1/catstagram',
+  },
   {
     image: MarketOverviewImg,
     mobileImage: MarketOverviewImg,
@@ -28,13 +57,13 @@ const arrOfProjects = [
     linkToSource: 'https://github.com/carloshs1994/choose-your-pokemon',
   },
   {
-    image: SpaceX,
-    mobileImage: SpaceX,
-    title: 'spaceX',
-    languages: ['React', 'Redux', 'Bootstrap', 'Axios'],
-    description: 'Inspired by the amazing company SpaceX, we built a mock website (Desktop only) to showcase info about this company, like rockets and missions. It allows you to reserve rockets and a missions at will. You can then view all your reserved rockets and missions in your profile page. We built this website using React and Redux and we style it using React Bootstrap.',
-    linkLiveVersion: 'https://carloshs1994.github.io/spaceX/',
-    linkToSource: 'https://github.com/carloshs1994/spaceX',
+    image: ToDoList,
+    mobileImage: ToDoList,
+    title: 'To-Do list',
+    languages: ['JavaScript', 'webpack', 'ES6', 'CSS'],
+    description: 'This is an app to store, display and remove task from your list. The main funtinality is adding, editing, deleting and drag and drop. This project was built using modern CSS3 and ES6. Built using webpack.',
+    linkLiveVersion: 'https://carloshs1994.github.io/To-Do-List/dist/',
+    linkToSource: 'https://github.com/carloshs1994/To-Do-List',
   },
   {
     image: EasyScience,
@@ -44,33 +73,6 @@ const arrOfProjects = [
     description: 'EasyScience is a mock online school that offers help in math science and chemistry. You could look at several courses and choose your favorite. Built using JavaScript. *This project was designed to consolidate my knowledge of HTML and CSS*',
     linkLiveVersion: 'https://carloshs1994.github.io/easyscience/',
     linkToSource: 'https://github.com/carloshs1994/easyscience',
-  },
-  {
-    image: MathMagicians,
-    mobileImage: MathMagicians,
-    title: 'Math Magicians',
-    languages: ['React', 'React-router', 'SASS'],
-    description: '"Math Magicians" is an app for mathlovers (Desktop only). It contains a calculator for basic operations! It was created using React and SASS.',
-    linkLiveVersion: 'https://carloshs1994.github.io/math-magicians/',
-    linkToSource: 'https://github.com/carloshs1994/math-magicians',
-  },
-  {
-    image: Bookstore,
-    mobileImage: Bookstore,
-    title: 'Bookstore',
-    languages: ['React', 'Redux', 'SASS', 'Axios'],
-    description: 'This is an app to store the books you are reading (Desktop only). It uses an API to store and fetch the data to track your progress. It was created using React and Redux. Styled using SASS.',
-    linkLiveVersion: 'https://carloshs1994.github.io/bookstore-react-redux/',
-    linkToSource: 'https://github.com/carloshs1994/bookstore-react-redux',
-  },
-  {
-    image: ToDoList,
-    mobileImage: ToDoList,
-    title: 'To-Do list',
-    languages: ['JavaScript', 'webpack', 'ES6', 'CSS'],
-    description: 'This is an app to store, display and remove task from your list. The main funtinality is adding, editing, deleting and drag and drop. This project was built using modern CSS3 and ES6. Built using webpack.',
-    linkLiveVersion: 'https://carloshs1994.github.io/To-Do-List/dist/',
-    linkToSource: 'https://github.com/carloshs1994/To-Do-List',
   },
 ];
 
