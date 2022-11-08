@@ -35,6 +35,7 @@ const Contact = () => {
         <li><a href="https://www.linkedin.com/in/carloshs94/"><img src={Linkedin} alt="linkedin" /></a></li>
         <li><a href="https://angel.co/u/carloshs94"><img src={Angel} alt="angelist" /></a></li>
         <li><a href="https://twitter.com/hscarlos_"><img src={Twitter} alt="twitter" /></a></li>
+        <li><a href="https://github.com/carloshs1"><img src={Github} alt="github" /></a></li>
       </ul>
     </section>
   );

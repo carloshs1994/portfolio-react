@@ -45,32 +45,33 @@ const About = () => {
             <img src={List1} alt="decoration" />
             Language
             <ul>
-              <li>Javascript</li>
-              <li>Html</li>
+              <li>TypeScript</li>
+              <li>C++</li>
+              <li>SQL</li>
               <li>CSS</li>
-              <li>Ruby</li>
+              <li>JavaScript</li>
             </ul>
           </li>
           <li>
             <img src={List2} alt="decoration" />
             Frameworks
             <ul>
-              <li>React</li>
               <li>Next.js</li>
-              <li>Redux</li>
+              <li>React</li>
+              <li>Tailwind</li>
               <li>Material UI</li>
-              <li>Ruby on Rails</li>
+              <li>Vue.js</li>
             </ul>
           </li>
           <li>
             <img src={List3} alt="decoration" />
             Skills
             <ul>
-              <li>Github</li>
-              <li>Terminal</li>
-              <li>Codekit</li>
-              <li>Gitlab</li>
-              <li>Codepen</li>
+              <li>Agile Methodologys</li>
+              <li>Remote Pair-Programming</li>
+              <li>SOLID</li>
+              <li>Mentoring</li>
+              <li>Gitflow</li>
             </ul>
           </li>
         </ul>

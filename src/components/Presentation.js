@@ -32,6 +32,7 @@ const Presentation = () => {
         <li><a href="https://www.linkedin.com/in/carloshs94/"><img src={Linkedin} alt="linkedin.com icon" /></a></li>
         <li><a href="https://angel.co/u/carloshs94"><img src={Angel} alt="angel icon" /></a></li>
         <li><a href="https://twitter.com/hscarlos_"><img src={Twitter} alt="twitter.com icon" /></a></li>
+        <li><a href="https://github.com/carloshs1"><img src={Github} alt="github.com icon" /></a></li>
       </ul>
       <img className="decoration" src={imgForRender} alt="decoration" />
     </section>
