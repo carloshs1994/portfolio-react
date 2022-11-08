@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header>
-      <a href="/">Carlos Herver</a>
+      <a href="/">Carlos Herver Solano</a>
       <nav>
         <button onClick={() => dispatch(openMobileMenu())} type="button">
           <img src={Hamburgerbutton} alt="Hamburger button" />

@@ -39,8 +39,10 @@ div.main-card {
 
   ul {
     display: flex;
+    height: 45px;
     gap: 12px;
     width: 100%;
+    overflow-x: auto;
 
     li {
       display: flex;
